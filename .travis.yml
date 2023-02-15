@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 12
+  - 13
 
 services:
   - docker
@@ -28,4 +28,3 @@ after_success:
   - docker push shehabnagy1998/udagram-api-user:v1
   - docker push shehabnagy1998/udagram-reverseproxy:v1
   - docker push shehabnagy1998/udagram-frontend:v1
-# Do similar for other three images
